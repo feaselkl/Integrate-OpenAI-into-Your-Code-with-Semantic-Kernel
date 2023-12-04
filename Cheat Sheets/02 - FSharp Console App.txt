@@ -1,0 +1,10 @@
+F# Console App Cheat Sheet
+--------------------------
+1. Open Program.fs and review code
+	a. Same overall idea with structure
+	b. Not "pure F#" code
+	c. F# async-await behavior differs from C#
+2. Try it out
+	a. Navigate to 02_FSharpConsole folder
+	b. dotnet run
+	c. Follow prompts and review results

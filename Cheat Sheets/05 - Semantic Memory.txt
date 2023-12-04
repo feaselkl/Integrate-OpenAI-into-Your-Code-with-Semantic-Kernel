@@ -1,0 +1,17 @@
+Semantic Memory Cheat Sheet
+---------------------------
+1. Open Program.cs and review code
+	a. Note Azure OpenAI text embedding generation service and memory store
+	b. Open Dossier.json and review contents
+	c. Dossier gets deserialized as JSON into dictionary
+    d. Prompts and settings don't need to be in a folder--they can be in code
+    e. Foreach loop:
+		i. Adds a fact to the prompt
+		ii. Saves information in a memory collection
+		iii. Adds results to the context
+	f. Prompt made up of 3 parts: prefix, foreach loop, suffix.
+	g. Async Chat() function adds information to history after each answer
+2. Try it out
+	a. Navigate to 05_SemanticMemory folder
+	b. dotnet run
+	c. Follow prompts and review results

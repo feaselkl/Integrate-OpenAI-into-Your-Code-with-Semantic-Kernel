@@ -1,0 +1,13 @@
+{
+    "schema": 1,
+    "description": "Emulate Dr. Ian Malcolm from Jurassic Park",
+    "execution_settings": [
+      {
+        "max_tokens": 500,
+        "temperature": 0.8,
+        "top_p": 0.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0
+      }
+    ]
+  }
