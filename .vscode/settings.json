@@ -1,3 +1,9 @@
 {
-    "dotnet.defaultSolution": "01_CSharpConsole.sln"
+    "dotnet.defaultSolution": "01_CSharpConsole.sln",
+    "azureFunctions.projectSubpath": "src\\ContosoSuitesVectorizationFunction",
+    "azureFunctions.deploySubpath": "src\\ContosoSuitesVectorizationFunction/bin/Release/net8.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)"
 }

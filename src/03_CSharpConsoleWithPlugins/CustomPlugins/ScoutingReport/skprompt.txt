@@ -1,4 +1,0 @@
-Generate a scouting report for the following NFL player for the Buffalo Bills.
-What are his key traits, strengths, and areas of his game that need improvement?
-
-Player:{{$input}}
