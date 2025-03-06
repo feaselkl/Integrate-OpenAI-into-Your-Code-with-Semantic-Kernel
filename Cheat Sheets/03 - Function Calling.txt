@@ -1,0 +1,21 @@
+Function Calling Cheat Sheet
+----------------------------
+1. Open WebAPI: Services\DatabaseService.cs
+	1. Explain kernel functions and descriptions
+2. Open Program.cs
+	1. Show builder basics--hold off on pragma warning and copilot bits
+	2. Explain standard Web API endpoints
+	3. Show /Chat endpoint and explain how it differs
+3. Open Dashboard: pages\2_API_Integration.py
+	1. Show standard database calls for hotels and bookings
+	2. Explain main() function
+	3. Explain invoke_chat_endpoint() function
+4. Run Web API: dotnet run
+5. Try out API integration
+	1. See hotel results -- if timeout, explain this is serverless DB restarting
+	2. Review bookings per hotel
+6. Ask questions
+	1. Which bookings for hotel 3 are for more than one guest?
+	2. Which bookings currently do not have hotel rooms?
+	3. Which bookings across all hotels have more than two guests?
+		(There is no direct API call for this!)

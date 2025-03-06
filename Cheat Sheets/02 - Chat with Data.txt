@@ -1,0 +1,16 @@
+Chat with Data Cheat Sheet
+--------------------------
+1. Open Dashboard: pages\1_Chat_with_Data.py
+2. Explain main() function and other functions
+3. Open files in data\ folder: FAQ.txt, Hotels.txt, Resorts.txt
+4. Review Azure AI Search and show indexed documents
+5. Run the web API: dotnet run
+6. Run the Streamlit app
+    1. Ensure in aiwins\ venv
+    2. Run: streamlit run Index.py
+    3. Navigate to Chat with Data pages
+7. Ask questions
+    1. Which resorts do we have in Jamaica?
+    2. Which resorts do we have in Curacao?
+    3. Which resorts offer a spa experience?
+    4. Who had the better mustache, Grover Cleveland or Sam Elliott?

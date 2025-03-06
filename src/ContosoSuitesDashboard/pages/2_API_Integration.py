@@ -41,7 +41,7 @@ def main():
     # Reshape hotels to an object with hotelID and hotelName
     hotels = [{"id": hotel["hotelID"], "name": hotel["hotelName"]} for hotel in hotels_json]
     
-    selected_hotel = st.selectbox("Hotel:", hotels, format_func=lambda x: x["name"])
+    selected_hotel = st.selectbox("Hotel:", hotels, format_func=lambda x: x["name"] + " (ID: " + str(x["id"]) + ")")
 
     # Display the list of bookings for the selected hotel as a table
     if selected_hotel:

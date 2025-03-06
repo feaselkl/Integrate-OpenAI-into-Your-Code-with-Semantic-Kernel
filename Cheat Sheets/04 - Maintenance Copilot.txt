@@ -1,0 +1,25 @@
+Maintenance Copilot Cheat Sheet
+-------------------------------
+1. Open WebAPI: Plugins\MaintenanceRequestPlugin.cs
+	1. Explain functionality to create and save maintenance requests
+2. Open Agents\MaintenanceCopilot.cs
+	1. Explain functions -- do NOT explain persona yet!
+2. Open Program.cs
+	1. Return to builder and explain remaining code
+	2. Pragma warning needed for AddAzureOpenAITextEmbeddingGeneration()
+	3. /MaintenanceCopilotChat endpoint
+4. Open Dashboard: pages\4_Copilot_Chat.py
+	1. Explain functionality
+5. Try maintenance copilot (round 1)
+	1. A customer is reporting an issue in room 205 at the Grand Regency. The microwave is not working.
+	2. Did it get saved to the database?
+	3. Did you do that before I asked, or after?
+6. Open Agents\MaintenanceCopilot.cs
+	1. Comment out empty ChatHistory and uncomment full ChatHistory
+	2. Stop and restart API
+7. Try maintenance copilot (round 2)
+	1. Can you help me create a maintenance request?
+	2. The customer mentioned they were at the regency. Can you provide me with the exact name of that hotel?
+		Note that this performs a database lookup of hotels!
+	3. Ok, that customer mentioned that they are in the penthouse suite, room 700, and that the television is no longer working.
+	4. Yes, that looks correct. Please save the request to the database.

@@ -1,0 +1,8 @@
+Lights Demo App Cheat Sheet
+---------------------------
+1. Open LightsDemoApp\LightsModel.cs and review code
+2. Open LightsPlugin.cs and review code
+3. Open Program.cs and explain builder code
+4. Explain .NET secrets we're using
+5. Show the conversation
+6. dotnet build + dotnet run
