@@ -4,9 +4,12 @@ This repository provides the supporting code for my presentation entitled [Integ
 
 ## Running the Code
 
-Review the **Cheat Sheets** folder for instructions on running each of the demos. You will need two environment variables set up:
+Most of the demos come from a TechExcel entitled [Integrating Azure PaaS and AI Services for Design Wins](https://microsoft.github.io/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins/). This presentation uses a sub-selection of the total code in that training, but I recommend going through it if you'd like to re-create the the Contoso Suites demos.
 
-- `AzureOpenAIEndpoint` -- The full URL of your Azure OpenAI endpoint. I recommend using a region like East US 2 or West US, as they have support for GPT-4. Also, as of December 2023, you will need to be whitelisted into the Azure OpenAI program for your use case.
-- `AzureOpenAIKey` -- One of the access keys for your Azure OpenAI service.
+To run the Lights demo app, you will need the following .NET user secrets:
 
-If you have an OpenAI account rather than an Azure OpenAI account, note that you can change the code to support this but that there may be minor code differences.
+- `AzureOpenAI:Endpoint`  -- The full URL of your Azure OpenAI endpoint. I recommend using a region like East US 2, though any region supporting GPT-4o will work.
+- `AzureOpenAI:DeploymentName` -- The name of your GPT-4o deployment.
+- `AzureOpenAI:ApiKey` -- One of the access keys for your Azure OpenAI service.
+
+Review the **Cheat Sheets** folder for instructions on running each of the demos. Note that you will need a paid Azure subscription (rather than a free subscription) to go through these demos. You can also use the OpenAI service rather than Azure OpenAI, though some code changes will be necessary.
